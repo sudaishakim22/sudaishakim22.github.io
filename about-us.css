@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: white;
+    color: #333333;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.fixed-nav-bar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .header {
+      margin-left: 20px;
+      overflow: auto;
+  }
+  
+  .header h1 {
+      font-size: 20px;
+      color: #080808;
+  }
+
+  .header .menu-items .active {
+    background-color: #9c9ea3;
+  }
+  
+  .header ul li {
+      list-style: none;
+      display: inline-block;
+      margin-top: 20px;
+      margin-right: 10px;
+      padding: 5px;
+  }
+  .header .menu-items ul  li a {
+      text-decoration: none;
+      color: #080808;
+      padding: 10px;
+  }
+  
+  .menu-items .buy-ticket {
+      background-color: orangered;
+  }
+  
+  
+  .header a:hover {
+      background-color: #9c9ea3;
+      color: whitesmoke;
+  }
+  
+  .logo {
+      display: inline-block;
+      margin-right: 10px;
+  }
+  .logo a {
+      text-decoration: none;
+  }
+  .menu-items {
+      display: inline-block;
+  }
+  
+  .search {
+      display: inline-block;
+      float: right;
+      padding: 20px 20px 0 0;
+  }
+  
+  .search .searchTerm {
+      margin-right: 20px;
+      margin-bottom: 10px;
+      border: 3px solid orangered;
+      padding: 5px;
+      height: 20px;
+      border-radius: 5px;
+      outline: none;
+      color: #9DBFAF;
+  }
+
+.hero {
+      width: 100%;
+      height: 500px;
+      background-image: url(assets/pexels-photo-1001682.jpeg);
+      background-size: cover;
+      text-align: center;
+  }
+
+.hero-content {
+    padding: 100px;
+}
+
+.hero-content h1 {
+    margin-bottom: 20px;
+}
+
+.brief-explanation {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 50px;
+}
+
+.brief-explanation .our-company {
+    float: left;
+    width: 50%;
+}
+
+.brief-explanation .our-company-content {
+    float: right;
+    width: 50%;
+}
+
+.contact-us {
+    width: 100%;
+    margin: auto;
+    height: 550px;
+    overflow: auto;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #afcbd3;
+}
+
+
+
+.contact-us .address {
+    width: 50%;
+    float: left;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.contact-us .right {
+    width: 50%;
+    float: right;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.contact-us .right .box1 {
+    width: 50%;
+    height: 120px;
+    background-color: #3D5B94;
+    line-height: 120px;
+    margin: auto;
+}
+
+.contact-us .right .box2 {
+    width: 50%;
+    height: 120px;
+    background-color: #3DACDD;
+    line-height: 120px;
+    margin: auto;
+}
+
+.contact-us .right .box3 {
+    width: 50%;
+    height: 120px;
+    background-color: orangered;
+    line-height: 120px;
+    margin: auto;
+}
+
+.contact-us .address h1 {
+    margin-bottom: 50px;
+}
+
+.contact-us .social-media h1{
+    margin-bottom: 50px;
+}
+
+
+
+
+.footer {
+    height: 40px;
+    background-color: #3e3f3c;
+}
+.footer p {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    color: whitesmoke;
+}

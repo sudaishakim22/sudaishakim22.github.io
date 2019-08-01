@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+
+
+/* start header */
+.fixed-nav-bar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .header {
+      margin-left: 20px;
+      overflow: auto;
+  }
+  
+  .header h1 {
+      font-size: 20px;
+      color: #080808;
+  }
+  
+  .header .menu-items a.active {
+      background: #9c9ea3;
+  }
+  
+  .header ul li {
+      list-style: none;
+      display: inline-block;
+      margin-top: 20px;
+      margin-right: 10px;
+      padding: 5px;
+  }
+  .header .menu-items ul  li a {
+      text-decoration: none;
+      color: #080808;
+      padding: 10px;
+  }
+  
+  .menu-items .buy-ticket {
+      background-color: orangered;
+  }
+  
+  
+  .header a:hover {
+      background-color: #9c9ea3;
+      color: whitesmoke;
+  }
+  
+  .logo {
+      display: inline-block;
+      margin-right: 10px;
+  }
+  .logo a {
+      text-decoration: none;
+  }
+  .menu-items {
+      display: inline-block;
+  }
+  
+  .search {
+      display: inline-block;
+      float: right;
+      padding: 20px 20px 0 0;
+  }
+  
+  .search .searchTerm {
+      margin-right: 20px;
+      margin-bottom: 10px;
+      border: 3px solid orangered;
+      padding: 5px;
+      height: 20px;
+      border-radius: 5px;
+      outline: none;
+      color: #9DBFAF;
+  }
+
+/* end header */
+
+
+/* start jumbotron */
+
+.jumbotron {
+    height: 550px;
+    width: 100%;
+    background-image: url(assets/animal-animal-photography-aquarium-1739809.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+}
+
+.jumbotron-content {
+    color:white;
+    text-align: center;
+    padding: 100px;
+}
+
+.jumbotron-content p{
+    margin-top: 40px;
+}
+
+.photo-content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.photo-content .grid-1, .grid-2, .grid-3{
+    display: inline-block;
+}
+.photo-content div img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.grid-1 div {   
+    height: 300px;
+    width: 300px;
+}
+.grid-2 div {   
+    height: 300px;
+    width: 300px;
+}
+.grid-3 div {   
+    height: 300px;
+    width: 300px;
+}
+
+/* start footer */
+.footer {
+    height: 40px;
+    background-color: #3e3f3c;
+}
+.footer p {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+/* end footer */

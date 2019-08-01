@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Buy Ticket</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="buy-tiket.css">
+    <script src="validasi.js"></script>
+</head>
+<body>
+    <div class="fixed-nav-bar">
+        <div class="header">
+            <div class="logo">
+                 <a href="index.html"><h1>BluejackAWquarium</h1></a>
+            </div>
+            <div class="menu-items">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="buy-tiket.html" class="buy-ticket">Buy Ticket</a></li>
+                    </ul>
+            </div>
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <!-- <button type="submit" class="searchButton">
+                  <i class="fa fa-search"></i>
+                </button> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="registrasi-box">
+            <form class="form-style-9">
+                <ul>
+                    <li>
+                        <input type="text" name="field1" class="field-style field-split align-left" placeholder="Fullname" id="fullname"/>
+                        <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" id="email"/>
+                    
+                    </li>
+                    <li>
+                        <input type="text" name="field3" class="field-style field-split align-left" placeholder="Telephone" id="telephone"/>
+                            <p style="font : 14px; color : #333333; padding: 5px; float: left;">Visit Type :</p>
+                            <select class="combobox-right" id="visit-type">
+                                <option value="0">Select</option>
+                                <option value="1">Reguler Bronze ticket</option>
+                                <option value="2">Reguler Silver ticket</option>
+                                <option value="3">Reguler Gold ticket</option>
+                            </select>
+                    </li>
+                    <li>
+                        <p>Guide</p>
+                            <label class="guide">Yes
+                                <input type="radio" name="radio" id="radio-btn" value="yes">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="guide">No
+                                <input type="radio" name="radio" id="radio-btn" value="no">
+                                <span class="checkmark"></span>
+                            </label>
+                    </li>
+                    <li>
+                        <input type="text" name="field4" class="field-style field-split align-left" placeholder="Number of Visitor" id="visitor">
+                        <input type="date" name="field5" class="field-style field-split align-right" placeholder="Visit Date" id="visit-date">
+                    </li>
+                    <li>
+                        <p>Agreement</p>
+                          <label class="agreement">Yes
+                            <input type="checkbox" value="yes" name="checkboxagrmnt">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="agreement">No
+                            <input type="checkbox" value="no" name="checkboxagrmnt">
+                            <span class="checkmark"></span>
+                          </label>
+                    </li>
+                    <li>
+                        <button class="button-submit" onclick="validasi()" value="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>                
+        </div>
+        <div class="deskripsi-box">
+            <h1>BOOKING YOUR TICKET</h1>
+            <p>Please place an order before traveling with Bluejack Aquarium. The Largest Aquarium in Jakarta.</p>
+
+        </div>
+    </div>
+</body>
+</html>
